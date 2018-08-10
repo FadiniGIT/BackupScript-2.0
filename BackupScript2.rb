@@ -1,3 +1,7 @@
+# =>BackupScript-2.0 : Revamped simple ruby script to remotely copy and erase files - twitter to notify the user of process
+# => Author: Fadini
+# => 9/10/2018
+
 require 'twitter'
 
 client = Twitter::REST::Client.new do |config|
